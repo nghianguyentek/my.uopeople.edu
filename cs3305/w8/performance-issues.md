@@ -1,9 +1,8 @@
 # Performance issues
 
-## Affections
+## Results
 
 - Customer leaving
-- 
 
 ## Latency
 
@@ -70,7 +69,7 @@
 - Changing host, components, etc.
 - Upgrading versions
 
-### Resolutions
+### Solutions
 
 - Frequent backup
 - Using automated tools
