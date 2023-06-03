@@ -10,7 +10,7 @@
 
 ### Week 7
 
-- [Joomla module](w7/joomla/module.md)
+- [Joomla module](joomla/module.md)
 
 ### Week 8
 
