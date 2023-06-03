@@ -8,6 +8,10 @@
 - [Server-side programming](w1/server-side-programming.md)
 - [Scripting language](w1/scripting-language.md)
 
+### Week 7
+
+- [Joomla module](w7/joomla/module.md)
+
 ### Week 8
 
 - [Performance issues](w8/performance-issues.md)
