@@ -2,10 +2,11 @@
 
 One of the most popular [CMS](../cms/README.md)
 
-## Characteristics
+## Advantages
 
 - Free and open source
 - Can be used by any organizations regardless their size
+- Flexibility
 
 ## Languages
 

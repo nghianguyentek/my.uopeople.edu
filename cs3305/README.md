@@ -4,25 +4,33 @@
 
 ### Week 1
 
-- [Web 2.0](web/generations/web-2.0.md)
-- [Server-side programming](web/programming/server-side/README.md)
-- [Scripting language](language/scripting/README.md)
+- [Web 2.0](../web/generations/web-2.0.md)
+- [Server-side programming](../web/programming/server-side/README.md)
+- [Scripting language](../language/scripting/README.md)
+
+### Week 3
+
+
+### Week 4
+
+- [PHP - Features](../php/README.md#features)
+- [PHP - Orginal MySQL API](../php/databases/mysql/original-api/README.md)
 
 ### Week 5
 
 - Ecommerce
-  - [Security practices](ecommerce/security/README.md#practices)
-  - [Law and regulations practices](ecommerce/law-regulations/README.md#practices)
+  - [Security practices](../ecommerce/security/README.md#practices)
+  - [Law and regulations practices](../ecommerce/law-regulations/README.md#practices)
 
 ### Week 6
 
-- [Joomla CMS](joomla/README.md)
+- [Joomla CMS](../joomla/README.md)
 
 ### Week 7
 
-- [Joomla module](joomla/module.md)
+- [Joomla module](../joomla/module.md)
 
 ### Week 8
 
-- [Performance issues](performance//performance-issues.md)
-- Application Performance Monitoring (APM) with [Real-User Monitoring (RUM)](performance/monitoring/rum.md) and [Synthetic User/Transaction Monitoring (SUM/STM)](performance/monitoring/stm.md)
+- [Performance issues](../performance//performance-issues.md)
+- Application Performance Monitoring (APM) with [Real-User Monitoring (RUM)](../performance/monitoring/rum.md) and [Synthetic User/Transaction Monitoring (SUM/STM)](../performance/monitoring/stm.md)
