@@ -4,9 +4,19 @@
 
 ### Week 1
 
-- [Web 2.0](w1/web-2.0.md)
-- [Server-side programming](w1/server-side-programming.md)
-- [Scripting language](w1/scripting-language.md)
+- [Web 2.0](web/generations/web-2.0.md)
+- [Server-side programming](web/programming/server-side/README.md)
+- [Scripting language](language/scripting/README.md)
+
+### Week 5
+
+- Ecommerce
+  - [Security practices](ecommerce/security/README.md#practices)
+  - [Law and regulations practices](ecommerce/law-regulations/README.md#practices)
+
+### Week 6
+
+- [Joomla CMS](joomla/README.md)
 
 ### Week 7
 
@@ -14,5 +24,5 @@
 
 ### Week 8
 
-- [Performance issues](w8/performance-issues.md)
-- Application Performance Monitoring (APM) with [Real-User Monitoring (RUM)](w8/rum.md) and [Synthetic User/Transaction Monitoring (SUM/STM)](w8/stm.md)
+- [Performance issues](performance//performance-issues.md)
+- Application Performance Monitoring (APM) with [Real-User Monitoring (RUM)](performance/monitoring/rum.md) and [Synthetic User/Transaction Monitoring (SUM/STM)](performance/monitoring/stm.md)

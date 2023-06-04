@@ -5,3 +5,4 @@
 ## List
 
 - [echo](../language-constructs/echo.md)
+- [global]
