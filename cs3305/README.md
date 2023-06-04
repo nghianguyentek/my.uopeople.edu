@@ -10,15 +10,23 @@
 
 ### Week 3
 
-
+- [PHP](../php/README.md)
+  - [Features](../php/README.md#features)
+  - Language reference
+    - [Basic syntax](../php/basic-syntax//README.md)
+    - [Data types](../php/types/README.md)
+    - [Superglobals](../php/superglobals/README.md)
+    - [Functions](../php/function/README.md)
+  
 ### Week 4
 
-- [PHP - Features](../php/README.md#features)
-- [PHP - Orginal MySQL API](../php/databases/mysql/original-api/README.md)
+- [PHP](../php//README.md)
+  - [Features](../php/README.md#features)
+  - [Orginal MySQL API](../php/databases/mysql/original-api/README.md)
 
 ### Week 5
 
-- Ecommerce
+- [Ecommerce](../ecommerce/README.md)
   - [Security practices](../ecommerce/security/README.md#practices)
   - [Law and regulations practices](../ecommerce/law-regulations/README.md#practices)
 
@@ -28,9 +36,13 @@
 
 ### Week 7
 
-- [Joomla module](../joomla/module.md)
+- [Joomla CMS](../joomla/README.md)
+  - [Module](../joomla/module.md)
 
 ### Week 8
 
-- [Performance issues](../performance//performance-issues.md)
-- Application Performance Monitoring (APM) with [Real-User Monitoring (RUM)](../performance/monitoring/rum.md) and [Synthetic User/Transaction Monitoring (SUM/STM)](../performance/monitoring/stm.md)
+- Performance
+  - [Issues](../performance//performance-issues.md)
+  - Monitoring (APM) with:
+    - [Real-User Monitoring (RUM)](../performance/monitoring/rum.md)
+    - [Synthetic User/Transaction Monitoring (SUM/STM)](../performance/monitoring/stm.md)
