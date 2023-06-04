@@ -35,7 +35,7 @@ The most used [server-side programming language](../web/programming/server-side/
 
 ## Features
 
-- Texts processing
+- Text processing
 - Working with databases: manipulation and retrival
 - Generate images
 - Generate PDF with custom fonts, which is useful in creating reports

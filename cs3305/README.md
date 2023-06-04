@@ -8,6 +8,15 @@
 - [Server-side programming](../web/programming/server-side/README.md)
 - [Scripting language](../language/scripting/README.md)
 
+### Week 2
+
+- Compiling software from souce
+  - [wget](../shell/commands/linux/wget.md) command
+  - [tar](../shell/commands/tar.md) command
+  - [make](../shell/commands/make.md) command
+- [Apache Server - httpd](../httpd/README.md)
+  - [Advantages](../httpd/README.md#advantages) and [disadvantages](../httpd/README.md#disadvantages)
+
 ### Week 3
 
 - [PHP](../php/README.md)
