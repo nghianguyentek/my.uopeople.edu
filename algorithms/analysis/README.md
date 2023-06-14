@@ -77,17 +77,17 @@ The growth rate of an algorithm is the rate of the input size `n` over the time 
 
 ### Upper bound
 
-The highest growth rate that the algorithm can have
+The upper or highest growth rate that the algorithm can have
 
-Big-oh notation, &Omicron; - has an upper bound to its growth rate of*
+Big-oh notation, &Omicron; - has an upper bound to its growth rate of *f(n)* (i.e., maximum resource amount that an algorithm needs for some class of inputs of size *n*)
 
 ### Lower bound
 
 The lowest growth rate that the algorithm can have
 
-Big-omega notation, &Omega; - least amount of a resource that an algorithm needs for some class of input
+Big-omega notation, &Omega; - least amount of a resource that an algorithm needs for some class of inputs of size *n* (i.e., has a lower bound to its growth rate of *f(n)*)
 
-### &theta; notation
+### &Theta; notation
 
 Big-theta notation, &Theta; - upper and lower bounds are the same
 

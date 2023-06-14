@@ -1,6 +1,6 @@
 # Stack Data Structures
 
-A stack is a list-like structure that adds elements at one end and removes elements at the other.
+A stack is a list-like structure that adds and removes elements from only one end.
 
 ## Characteristics
 

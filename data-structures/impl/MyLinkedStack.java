@@ -1,6 +1,5 @@
 public class MyLinkedStack<E> implements MyIStack<E> {
-  private MyDoubleLinkNode<E> tail;
-  private MyDoubleLinkNode<E> head;
+  private MyLinkNode<E> topNode;
   private int length = 0;
 
   @Override
@@ -10,25 +9,26 @@ public class MyLinkedStack<E> implements MyIStack<E> {
 
   @Override
   public void push(E element) {
-    MyDoubleLinkNode<E> newNode = new MyDoubleLinkNode<>(element);
+    MyLinkNode<E> newNode = new MyLinkNode<>(element);
 
     if (length++ == 0) {
-      tail = head = newNode;
+      topNode = newNode;
     } else {
-      tail.setNext(newNode);
-      tail = newNode;
+      newNode.setNext(topNode);
+      topNode = newNode;
     }
   }
 
   @Override
   public E pop() {
     if (length < 1) return null;
-    E value = head.getData();
-    head = head.next();
+    E value = topNode.getData();
+    topNode = topNode.next();
+    length--;
     return value;
   }
 
   public void clear() {
-    for (;length > 0; length--) pop();
+    while(length > 0) pop();
   }
 }
