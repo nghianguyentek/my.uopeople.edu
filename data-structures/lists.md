@@ -1,5 +1,7 @@
 # List Data Structures
 
+A list is a sequence of data items.
+
 ## Characteristics
 
 - A sequence of elements
@@ -7,6 +9,10 @@
 - The number of elements is the length or size of the list
 - If having no element, the list is empty
 - The beginning of a list is called the head, and the end of it is called the tail
+- We can add and remove an element at a particular position. If doesn't specify the adding position, we will add it to the end of the list (i.e., right after the currently last element)
+- We can get value of a particular element at an specific position
+
+*[Sample of List ADT](MyIList.java)*
 
 ## Common implementations
 
@@ -28,4 +34,6 @@
 |Inefficient in adding and removing element - &Theta;(1) in the best case, &Theta;(n-1) = &Theta;(n) in the worst case, and &Theta;((n-1)(n-1+1)/2n) = &Theta;((n-1)/2) ~ &Theta;(n) in the average case|Efficient in adding and removing element - &Theta;(1) in all cases (for two-way linked list)
 
 
-*In general, if we mostly do searchs, we should use array-based lists; if we frequently add and remove elements, use linked lists.*
+### Notes
+
+- In general, if we mostly do searchs, we should use array-based lists; if we frequently add and remove elements, use linked lists

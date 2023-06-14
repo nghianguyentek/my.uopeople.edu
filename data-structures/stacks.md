@@ -7,12 +7,14 @@ A stack is a list-like structure that adds and removes elements from only one en
 - Push elements in the stack
 - Pop elements out the stack
 
+*[Sample of Stack ADT](MyIStack.java)*
+
 ## Common implementations
 
 - Array-based stacks
   - Fixed-size
-  - Dynamic
-- Linked stacks
+  - Dynamic ([Sample](impl/MyArrayStack.java))
+- Linked stacks ([Sample](impl/MyLinkedStack.java))
 
 ## Compare array-based and linked stacks
 
@@ -21,8 +23,12 @@ A stack is a list-like structure that adds and removes elements from only one en
 |Adding element requires checking size|Adding element doesn't require checking size
 |Redundunt storage if the number of elements is less than a half of the actual size|Doesn't have non-used elements
 |Doesn't require storage for links|Require storage for links
-|Efficient random access - &Theta;(1) in all cases|Inefficient random access, especially in the worst and average case: &Theta;(1) in the best case, &Theta;(n) in the worst case, and &Theta;(n(n+1)/2n) ~ &Theta;(n) in the average case
-|Inefficient in adding and removing element - &Theta;(1) in the best case, &Theta;(n-1) = &Theta;(n) in the worst case, and &Theta;((n-1)(n-1+1)/2n) = &Theta;((n-1)/2) ~ &Theta;(n) in the average case|Efficient in adding and removing element - &Theta;(1) in all cases (for two-way linked list)
+|Efficient pushing and poping - &Theta;(1) in all cases|Efficient pushing and poping - &Theta;(1) in all cases
 
+### Notes
 
-*In general, if we mostly do searchs, we should use array-based lists; if we frequently add and remove elements, use linked lists.*
+- If a stack always contains a fix amount of elements, array-based implementations may be better in storage aspect.
+
+## Stack and recursion
+
+We can use stack to convert a recursive-form of an algorithm to an iterative-form when unable to do it directly.

@@ -39,7 +39,8 @@ public class MyArrayStack<E> implements MyIStack<E> {
 
   @SuppressWarnings("unchecked")
   private void increaseCapacity() {
-    E[] newData = (E[]) new Object[capacity * 2];
+    capacity *= 2;
+    E[] newData = (E[]) new Object[capacity];
     System.arraycopy(data, 0, newData, 0, length);
     data = newData;
   }
