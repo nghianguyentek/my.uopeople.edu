@@ -33,10 +33,6 @@ public class MyArrayStack<E> implements MyIStack<E> {
     return data[--length];
   }
 
-  public void clear() {
-    for (;length > 0; length--) pop();
-  }
-
   @SuppressWarnings("unchecked")
   private void increaseCapacity() {
     capacity *= 2;

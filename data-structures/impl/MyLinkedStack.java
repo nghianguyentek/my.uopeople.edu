@@ -27,8 +27,4 @@ public class MyLinkedStack<E> implements MyIStack<E> {
     length--;
     return value;
   }
-
-  public void clear() {
-    while(length > 0) pop();
-  }
 }

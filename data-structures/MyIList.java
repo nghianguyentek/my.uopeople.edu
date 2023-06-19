@@ -7,5 +7,4 @@ public interface MyIList<E> {
   public E getElement(int index);
   
   public E remove(int index);
-  public void clear();
 }

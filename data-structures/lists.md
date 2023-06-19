@@ -12,13 +12,13 @@ A list is a sequence of data items.
 - We can add and remove an element at a particular position. If doesn't specify the adding position, we will add it to the end of the list (i.e., right after the currently last element)
 - We can get value of a particular element at an specific position
 
-*[Sample of List ADT](MyIList.java)*
+*[Java List ADT example](MyIList.java)*
 
 ## Common implementations
 
 - Array-based lists
   - Fixed-size
-  - Dynamic
+  - Dynamic ([Java example](impl/MyArrayList.java))
 - Linked lists
   - Forward-only
   - Two-way (aka, double)

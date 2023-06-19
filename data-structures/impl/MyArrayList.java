@@ -51,11 +51,6 @@ public class MyArrayList<E> implements MyIList<E> {
     return tmp;
   }
 
-  @Override
-  public void clear() {
-    length = 0;
-  }
-
   @SuppressWarnings("unchecked")
   private void increaseCapacity() {
     capacity *= 2;

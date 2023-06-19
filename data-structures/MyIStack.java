@@ -3,6 +3,4 @@ public interface MyIStack<E> {
 
   public void push(E element);
   public E pop();
-  
-  public void clear();
 }

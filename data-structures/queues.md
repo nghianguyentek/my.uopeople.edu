@@ -1,25 +1,26 @@
-# Stack Data Structures
+# Queue Data Structures
 
-A stack is a list-like structure that adds and removes elements from only one end.
+A queue is a list-like structure that adds new element to one end and removes from the other.
 
 ## Characteristics
 
-- Push elements in the stack
-- Pop elements out the stack
-- LIFO (Last-In First-Out)
+- Enqueue
+- Dequeue
+- FIFO (First-In First-Out)
 
-*[Java Stack ADT example](MyIStack.java)*
+*[Java Queue ADT example](MyIQueue.java)*
 
 ## Common implementations
 
-- Array-based stacks
-  - Fixed-size
-  - Dynamic ([Java example](impl/MyArrayStack.java))
-- Linked stacks ([Java example](impl/MyLinkedStack.java))
+- Array-based queue
+  - Fixed front position ([Java example](impl/MyArrayFixedFrontQueue.java))
+  - Drifting
+  - Circular
+- Linked queue
 
-## Compare array-based and linked stacks
+## Compare array-based and linked queues
 
-|Array-based stacks|Linked stacks
+|Array-based queues|Linked queues
 |-|-
 |Adding element requires checking size|Adding element doesn't require checking size
 |Redundunt storage if the number of elements is less than a half of the actual size|Doesn't have non-used elements
