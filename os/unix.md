@@ -82,3 +82,4 @@
 - Manage files
 - Allocate file space
 - Manage free space
+- Control file access

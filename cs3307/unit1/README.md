@@ -4,7 +4,7 @@
 
 - [Embedded Operating System - javapoint](https://www.javatpoint.com/embedded-operating-system)
 - [Different Operating Systems - GeeksforGeeks](https://www.geeksforgeeks.org/different-operating-systems/)
-- [Introduction to UNIX System - GeeksforGeeks](https://www.geeksforgeeks.org/introduction-to-unix-system/)
+- [Introduction to UNIX System - GeeksforGeeks](https://www.g eeksforgeeks.org/introduction-to-unix-system/)
 - [Introduction to UNIX - Edureka](https://www.youtube.com/watch?v=vLPdBp9vv9Y)
 
 ## Discussion Assignment
