@@ -1,7 +1,10 @@
 # Unix Operating System
 
+*AT&T Unix deriviation*
+
 # Characteristics
 
+- Modular kernel
 - Closed-source
 - Multitasking
 - Multi-users
@@ -22,7 +25,6 @@
   - gps
   - xfs
   - vxfs
-- Modular kernel
 
 ## Advantages
 
@@ -52,9 +54,17 @@
 - AIS
 - HP-UX
 - BSD
+  - 4.4BSD-Lite/2
+  - FreeBSD
+    - Drawin
+      - macOS
+  - OpenBSD
+  - NetBSD
+  - SunOS (later Solaris)
+- System V release 4
+  - Solaris
 - Iris
 - Linux
-- macOS
 
 ## System structure
 

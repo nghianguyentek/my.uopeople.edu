@@ -6,7 +6,7 @@
 
 ## Characteristics
 
-- Open-source based on UNIX
+- Open-source based on UNIX (Unix-like)
 - Free
 - Portable
 - Multi-user
@@ -34,11 +34,10 @@
 
 ## Popular distributions
 
-- Redhat Enterprise Linux (REL)
+- Red Hat Enterprise Linux (RHEL)
 - CentOS
 - Ubuntu
 - Linux Mint
-- Solaris
 
 ## Disadvantages
 
