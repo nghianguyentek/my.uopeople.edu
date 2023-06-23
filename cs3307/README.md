@@ -4,7 +4,7 @@
 
 ### [Unit 1 - Modern Operating Systems](unit1/README.md)
 
-### Unit 2 - Parallel Computing and Concurrency
+### [Unit 2 - Parallel Computing and Concurrency](unit2/README.md)
 
 ### Unit 3 - Memory and File Structure
 

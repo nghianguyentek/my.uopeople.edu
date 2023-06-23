@@ -10,7 +10,7 @@
 
 ### [Unit 1 - Introduction to Data Structures and Algorithms](unit1/README.md)
 
-### Unit 2 - Algorithm Analysis
+### [Unit 2 - Algorithm Analysis](unit2/README.md)
 
 ### Unit 3 - Lists, Stacks, Queues, and Dictionaries
 
