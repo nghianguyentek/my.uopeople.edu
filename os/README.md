@@ -1,5 +1,11 @@
 # Operating Systems
 
+## Kernel
+
+The core of an operating system
+
+- Memory virtualization: kernel-land and user-land memories
+
 ## Read more...
 
 - https://www.comptia.org/blog/os-comparison

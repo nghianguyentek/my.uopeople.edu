@@ -12,7 +12,7 @@
 - [Complete history of macOS - History Computer](https://history-computer.com/complete-history-of-mac-os/)
 - [Introduction to parallel computing](https://www.geeksforgeeks.org/introduction-to-parallel-computing/)
 - [Understanding the pros and cons of concurrency - Coding Ninjas](https://www.codingninjas.com/blog/2021/10/19/understanding-the-pros-and-cons-of-concurrency/)
-- [Brief history of Microsoft Windows - Lifewire](https://www.lifewire.com/brief-history-of-microsoft-windows-3507078)
+- [A Brief history of Microsoft Windows - Lifewire](https://www.lifewire.com/brief-history-of-microsoft-windows-3507078)
 
 ## Discussion Assignment
 
@@ -46,7 +46,7 @@ Submit a paper that is at least 2 pages in length exclusive of the reference pag
 
 ## Learning Journal
 
-magine you are designing an operating system for a company. Read [Understanding the pros and cons of concurrency](https://www.codingninjas.com/blog/2021/10/19/understanding-the-pros-and-cons-of-concurrency/), and answer the following questions:
+Imagine you are designing an operating system for a company. Read [Understanding the pros and cons of concurrency](https://www.codingninjas.com/blog/2021/10/19/understanding-the-pros-and-cons-of-concurrency/), and answer the following questions:
 - Explain what your operating system would be used for and what components it would utilize, such as a GUI or command line interface, etc. 
 - Would you give this OS a concurrency ability or not? 
 - What would be the need to include/not include concurrency? 
@@ -55,3 +55,7 @@ magine you are designing an operating system for a company. Read [Understanding 
 The Learning Journal entry should be a minimum of 500 words and not more than 750 words. Use APA citations and references if you use ideas from the readings or other sources.
 
 ## Self-Quiz
+
+## Read more
+
+- https://github.com/gopalkrishnareddy/awesome-iOS-resource/tree/master/Books

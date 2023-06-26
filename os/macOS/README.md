@@ -9,11 +9,27 @@ Mach kernel and BSD -> NeXTSTEP -> Mac OS X
 - APFS (Apple File System)
 - Read-only NTFS (New Technology File System)
 
-## Components
+## Kernel components
 
 - Drawin (core)
-  - Mach kernal
-  - FreeBSD
+  - Mach component (the kernel of Mach 3.0 OS): VMM (Virtual Memory Management), IPC (Interprocess Communication), preemptive multitasking, protected memory, and console I/O
+  - BSD component (FreeBSD 5.0 OS): POSIX-compliant API (system calls on-top Mach functionalities), UNIX process model (pid/gids/pthreads on-top Mach task/thread), VFS (Virtual File System), and network stack
+  - IOKit component: a framework to build drivers providing exception handling, multiple inheritance, Plug&Play, power management, registry system, and templating
+
+### BSD component
+
+- Syscall calling convention
+
+### IOKIt component
+
+- I/O Registry
+
+### Miscellancious
+
+- kdumpd
+- inetd UDP 1069
+- launchd
+- sshd
 
 ## Frameworks
 
@@ -22,6 +38,7 @@ Mach kernel and BSD -> NeXTSTEP -> Mac OS X
 
 ## History
 
+- 1976: NeXT and NeXTSTEP introduced by Steve Jobs, Steve Wozniak, and Ronald Wayne
 - 1984: introduced
 - 1997
   - February:  acquired NeXT
