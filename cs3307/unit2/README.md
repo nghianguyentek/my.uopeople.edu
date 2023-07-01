@@ -59,3 +59,6 @@ The Learning Journal entry should be a minimum of 500 words and not more than 75
 ## Read more
 
 - https://github.com/gopalkrishnareddy/awesome-iOS-resource/tree/master/Books
+- https://www.linuxjournal.com/node/1202799
+- https://www.hp.com/us-en/shop/tech-takes/parallel-computing-and-its-modern-uses
+- https://pages.cs.wisc.edu/~remzi/OSTEP/

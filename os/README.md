@@ -12,3 +12,5 @@ The core of an operating system
 - https://www.softwaretestinghelp.com/best-operating-systems/
 - https://www.freebsd.org/
 - https://www.peerspot.com/categories/operating-systems-os-for-business
+- https://github.com/Criviere/os
+- https://github.com/brho/akaros
