@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "nextid.h": "c",
+    "shm.h": "c",
+    "msg.h": "c"
+  }
+}

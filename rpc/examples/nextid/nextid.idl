@@ -1,0 +1,5 @@
+program NEXT_ID {
+  version VER_1 {
+    int nextid() = 0;
+  } = 1;
+} = 2;

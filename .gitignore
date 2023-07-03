@@ -130,5 +130,9 @@ dist
 .pnp.*
 
 *.pdf
+*.out
+*.bak
+*.o
+*.*.dSYM/
 
 build/
