@@ -1,8 +1,23 @@
 # File Systems
 
-## Definition
+In an OS context, a file system is a rule set showing how to name, store, and retrieve files on a partition, a logical division of a physical storage device. Based on file systems, OS can organize files and directories efficiently, consistently, and securely. Without file systems, there are no files and directories, only contiguous data blocks on a storage device. Thus, to get the expected data blocks, one must know the start and end addresses (sector numbers). We often call storage devices, in this situation, raw disks. In fact, if we don't need file management, we don't need file systems; for example, with embedded OSes, deleted data recovery, and disk backup.
 
-A file system is a rule set to name, store, and retrieve files in a storage device.
+## A typical scenario
+
+Back to the world of OS with file systems, after plugging a physical storage device into a computer, we often do the following steps:
+1. Partitioning
+   1.	Define the [scheme](#partitioning-schemes) and initialize the partition table.
+   1.	Create a partition and update the partition table.
+1.	Format the newly created partition with a particular file system.
+1.	Mount the formatted partition into the file system tree.
+
+Although we can use commands in a shell to accomplish these steps, working with a GUI tool whenever possible is a better approach since it reduces the underline complexity and error-prone typing. Unfortunately, most server-version Linux distros don't provide GUI. Therefore, if you tend to become a system administrator or a DevOp, looking at `fdisk(8)` and `mkfs(8)` may help you.
+
+Of course, this is only for the first time (or you want to practice it). In many cases, the manufacturers already did all these for us. Now we can create, write, copy, modify, execute, and delete our files and directories on mounted partitions.
+
+### Partition creation
+
+When creating a partition, the required information includes its number, first sector, and size.
 
 ## Common File Systems
 
@@ -65,8 +80,7 @@ A directory is a special file used as a logical container containing other files
 
 ## Partitioning schemes
 
-- Master Boot Record (MBR)
-- GUID Partition Table (GPT)
+There are two popular partitioning schemes, [Master Boot Record (MBR)](#mbr-partitioning-scheme) and [GUID Partition Table (GPT)](#gpt-partitioning-scheme). The latter is more common today due to the limits of the first, such as the maximum size of a partition and no backup for the MBR sector.
 
 ### MBR partitioning scheme
 

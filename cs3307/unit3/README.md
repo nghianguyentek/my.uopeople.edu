@@ -20,7 +20,7 @@ In your responses to your classmates' posts, expand on their points and provide 
 
 ## Written Assignment
 
-You have been tasked with creating technical documentation to assist your junior developers in understanding file system, prompts, and remote procedure calls. The documentation should include screenshots and technical details in brief involving file systems, prompts, and remote procedure calls. In addition, you should find another resource on your own to explain security in a Unix/Linux operating system to help your fellow employee. You should use bullet points where needed to help organize the information and make it easier to understand.
+You have been tasked with creating technical documentation to assist your junior developers in understanding file systems, prompts, and remote procedure calls. The documentation should include screenshots and technical details in brief involving file systems, prompts, and remote procedure calls. In addition, you should find another resource on your own to explain security in a Unix/Linux operating system to help your fellow employee. You should use bullet points where needed to help organize the information and make it easier to understand.
 
 To complete this assignment, you should review the document - [What is technical documentation](https://www.indeed.com/career-advice/career-development/technical-documentation), to get a sense of how technical documentation is typically structured. Then, use the readings provided to you to provide a detailed explanation of what is happening within the operating system and explain the role and function of the file system, how it relates to memory, and how remote procedure calls are done.
 

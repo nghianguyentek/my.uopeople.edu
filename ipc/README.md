@@ -1,5 +1,7 @@
 # Inter-process Communication (IPC)
 
+IPC is the situation of two or more processes on the same or different machines interacting with others.
+
 ## Common methods
 
 - Shared memory

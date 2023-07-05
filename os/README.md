@@ -8,15 +8,15 @@ The core of an operating system
 
 ## Prompts
 
-In a command-line interface, when the computer is wating for user input, it displays a prompt before the cursor. A default representation of a prompt often includes:
+In a command-line interface, when the computer waits for user input, it displays a prompt before the cursor. A default representation of a prompt often includes:
 - The current username
 - The computer name
 - The current directory name/path
 - Prompt character: `%` (macOS) and `$` (Linux)
 
 For example, a prompt of `kihonvn` user on the `kihonvn-ubuntu` computer at the user home directory:
-- In Linux, is `kihonvn@kihonvn-ubuntu:~$`
-- In macOS, is `kihonvn@kihonvn-ubuntu ~ %`
+- In Linux, `kihonvn@kihonvn-ubuntu:~$`
+- In macOS, `kihonvn@kihonvn-ubuntu ~ %`
 
 ### Change the prompt format
 

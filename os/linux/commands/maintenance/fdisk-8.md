@@ -32,7 +32,7 @@ p
 
 ![](fdisk-device-p.png)
 
-### Create a GPT partition table
+### Create a GPT partitioning scheme
 
 1. Select device to manage partitions
 
@@ -40,7 +40,7 @@ p
 sudo fdisk %device-path%
 ```
 
-2. Create empty GPT partition table
+2. Create empty GPT scheme
 
 ```sh
 g
