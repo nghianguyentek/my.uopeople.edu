@@ -4,7 +4,7 @@ RPC is a protocol designed for calling procedures of processes running on other 
 
 Although RPC protocol lets the implementers freely choose the transport protocol, most RPC frameworks use TCP (Transmission Control Protocol) or UDP (User Datagram Control) to implement it. If you know the IDL and C language and want to try RPC, look at RPC v2 RFC of Sun Microsystem (1988) and `rpcgen(1)` command.
 
-## A typical RPC scenario steps
+## A typical RPC scenario stepsq
 
 We can describe the steps of a typical RPC flow as the following:
 - On the client side, the client code creates/gets the RPC client stub and calls the procedure.
