@@ -16,7 +16,7 @@
 
 What is your opinion on using IDEs over plain text editors for programming tasks, such as writing and editing code for software development and operating systems? Justify your position with examples.
 
-Your post should not be  more than 500-words.
+Your post should not be more than 500-words.
 
 ## Written Assignment
 

@@ -16,6 +16,7 @@ int printf(const char* format, ...);
 - `%f`: placeholder of a floating-point number
 - `%s`: placeholder of a string
 - `%c`: placeholder of a char
+- `%p`: placeholder of a pointer (virtual address)
 - `%%`: the `%`
 
 ## Examples

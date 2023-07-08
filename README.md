@@ -1,4 +1,4 @@
-# my.uopeople.edu
+# CS UoPeople Courses
 
 ## [CS-3303 Data Structures](cs3303/README.md)
 
