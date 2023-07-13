@@ -32,6 +32,10 @@
 - `[count]x`: delete the character at the cursor position
 - `dd`: delete a line
 
+### Replace
+
+- `r`
+
 ### Undo and redo
 
 - `u`: undo

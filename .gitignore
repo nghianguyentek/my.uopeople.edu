@@ -131,8 +131,13 @@ dist
 
 *.pdf
 *.out
-*.bak
 *.o
+*.bak
+*.doc
+*.docx
 *.*.dSYM/
+
+backup.txt
+hello
 
 build/

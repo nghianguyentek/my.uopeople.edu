@@ -1,0 +1,9 @@
+I am an example plain text file.
+
+Hello, Vim (a Vi IMproved)!
+My name is Kihon Việt Nam. Nice to meet you!
+You're strange to me.
+However, I hope we will love each other soon.
+Do you agree with me?     
+  - Yes
+  - No
